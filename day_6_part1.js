@@ -1,5 +1,6 @@
-let time = [44, 89, 96, 91]
-let dist = [277, 1136, 1890, 1768]
+//this solves both, just changed numbers
+let time = [44899691]
+let dist = [277113618901768]
 
 let nos = []
 for (let tt in time) {
