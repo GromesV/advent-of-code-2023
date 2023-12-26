@@ -5,7 +5,7 @@ from datetime import datetime
 sys.path.append('.')
 import test
 
-#cythonize -i test.pyx
+#cythonize -i day_5_part1.pyx
 #python run_test.py
 
 a = datetime.now()

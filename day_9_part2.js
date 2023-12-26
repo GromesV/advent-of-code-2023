@@ -1,10 +1,6 @@
 let input = ``
-
 input = input.split('\n')
 input = input.map(x => x.split(' ').map(y => parseInt(y)))
-
-
-
 let total = 0
 for (let vals of input) {
     let stack = [vals]
@@ -18,7 +14,6 @@ for (let vals of input) {
         stack.push(differences)
     }
     let curVal = 0
-    console.log("==================================================")
     for (let i = stack.length - 2; i >= 0; i--) {
         const st = stack[i];
         curVal = st[0] - curVal
